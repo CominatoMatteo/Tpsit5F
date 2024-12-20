@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+main {
+    min-height: 80vh;
+}
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}
+button {
+    cursor: pointer;
+}

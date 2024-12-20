@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="d-flex justify-content-between p-3 bg-primary text-white">
+        <h1>TPSI Quiz</h1>
+        <button class="btn btn-light" onclick="goToPage('index.html')">Home</button>
+    </header>
+    <main class="container mt-5">
+        <h2>Benvenuto!</h2>
+        <p>Scegli il tipo di domanda per iniziare:</p>
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" onclick="goToPage('domanda_aperta.html')">Domande Aperte</button>
+            <button class="btn btn-primary" onclick="goToPage('crocetta.html')">Domande a Scelta Multipla</button>
+        </div>
+    </main>
+    <footer class="text-center p-3 mt-5 bg-light">TPSI GPT Project</footer>
+    <script src="function.js"></script>
+</body>
+</html>
