@@ -1,0 +1,140 @@
+{
+    "site": {
+        "title": "Mini-Sito Socket",
+        "pages": [
+            {
+                "name": "Home",
+                "file": "index.html",
+                "title": "Home - Mini-Sito Socket",
+                "content": {
+                    "header": "Benvenuto nel Mini-Sito sulle Socket!",
+                    "description": "Scopri il funzionamento delle socket e i concetti fondamentali di reti e protocolli.",
+                    "button_text": "Inizia",
+                    "button_link": "socket.html"
+                }
+            },
+            {
+                "name": "Socket",
+                "file": "socket.html",
+                "title": "Socket - Mini-Sito",
+                "content": [
+                    {
+                        "section": "Cos'è una Socket?",
+                        "description": "Una socket è un endpoint di comunicazione tra due macchine su una rete..."
+                    },
+                    {
+                        "section": "Tipologie di Socket",
+                        "description": [
+                            "Stream: Orientate alla connessione (es. TCP)...",
+                            "Datagram: Non orientate alla connessione (es. UDP)..."
+                        ]
+                    },
+                    {
+                        "section": "Processo di Comunicazione",
+                        "description": "Server e client interagiscono usando socket per inviare e ricevere dati..."
+                    }
+                ]
+            },
+            {
+                "name": "TCP vs UDP",
+                "file": "tcp-udp.html",
+                "title": "TCP vs UDP - Mini-Sito",
+                "content": [
+                    {
+                        "protocol": "TCP",
+                        "description": [
+                            "Orientato alla connessione.",
+                            "Garantisce l'integrità dei dati.",
+                            "Utilizza meccanismi di ritrasmissione in caso di perdita di pacchetti.",
+                            "Adatto per applicazioni come email, trasferimento file, e navigazione web."
+                        ]
+                    },
+                    {
+                        "protocol": "UDP",
+                        "description": [
+                            "Non orientato alla connessione.",
+                            "Non garantisce la consegna o l'ordine dei pacchetti.",
+                            "Minore overhead rispetto a TCP, quindi più veloce.",
+                            "Adatto per applicazioni in tempo reale come streaming video e giochi online."
+                        ]
+                    },
+                    {
+                        "comparison_table": {
+                            "headers": [
+                                "Caratteristica",
+                                "TCP",
+                                "UDP"
+                            ],
+                            "rows": [
+                                {
+                                    "Caratteristica": "Orientamento",
+                                    "TCP": "Connessione",
+                                    "UDP": "Senza connessione"
+                                },
+                                {
+                                    "Caratteristica": "Affidabilità",
+                                    "TCP": "Alta",
+                                    "UDP": "Bassa"
+                                },
+                                {
+                                    "Caratteristica": "Velocità",
+                                    "TCP": "Più lenta",
+                                    "UDP": "Più veloce"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Pila Iso-Osi",
+                "file": "osi.html",
+                "title": "Modello Osi - Mini-Sito",
+                "content": [
+                    {
+                        "description": "Il modello OSI (Open Systems Interconnection) è uno schema concettuale utilizzato per comprendere e standardizzare le funzioni di rete..."
+                    },
+                    {
+                        "section": "Livelli del modello OSI",
+                        "description": [
+                            "Fisico: Trasferimento di bit attraverso il mezzo fisico.",
+                            "Data Link: Comunicazione tra nodi direttamente connessi.",
+                            "Rete: Instradamento dei pacchetti tra reti diverse.",
+                            "Trasporto: Trasferimento affidabile dei dati (es. TCP, UDP).",
+                            "Sessione: Gestione delle connessioni tra applicazioni.",
+                            "Presentazione: Conversione dei dati per il livello applicativo.",
+                            "Applicazione: Interfaccia diretta con l’utente."
+                        ]
+                    },
+                    {
+                        "section": "Il livello di trasporto",
+                        "description": "Il livello di trasporto garantisce la consegna affidabile dei dati attraverso protocolli come TCP e UDP..."
+                    }
+                ]
+            },
+            {
+                "name": "Glossario",
+                "file": "glossario.html",
+                "title": "Glossario - Mini-Sito",
+                "content": [
+                    {
+                        "description": [
+                            "Socket: Definizione di Socket",
+                            "TCP: Differenze con UDP",
+                            "OSI: Spiegazione del modello"
+                        ]
+                    }
+                ]
+            },
+            {
+                "resources": {
+                    "css": [
+                         "style.css"
+                    ]
+                }
+            }
+        ],
+        "author": "Matteo Cominato",
+        "class": "Classe 5F"
+    }
+}
